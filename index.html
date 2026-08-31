@@ -14,6 +14,32 @@ content="width=device-width, initial-scale=1.0">
 
 <style>
 
+   /* ส่วนแสดง Certificate */
+.certificate-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.certificate-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+    text-align: center;
+}
+.certificate-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.certificate-card h3 {
+    margin-top: 15px;
+    color: #1f6f43;
+}
 /* =========================
 
    พื้นฐานของเว็บไซต์
@@ -580,11 +606,10 @@ footer {
 
 <div class="hero-content">
 
-  <!-- เป็นชื่อไฟล์รูปของคุณ -->
+  <!-- ใส่ชื่อไฟล์รูปของคุณ -->
 
 <img src="profile.jpeg" alt="Narong"
    class="profile-img"
-
 >
 
 <h1>
@@ -709,7 +734,7 @@ NarongPortfolio
 
 <div class="certificate-card">
 
-<!-- ตั้งชื่อไฟล์ Certificate ของคุณ -->
+<!-- ใส่ชื่อไฟล์ Certificate ของคุณ -->
 
 <img
 
